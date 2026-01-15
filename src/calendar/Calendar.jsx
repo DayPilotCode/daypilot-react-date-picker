@@ -95,7 +95,6 @@ export default function Calendar() {
         timeRangeSelectedHandling="Enabled"
         onTimeRangeSelected={onTimeRangeSelected}
         onBeforeEventRender={onBeforeEventRender}
-        eventDeleteHandling="Update"
         onEventClick={onEventClick}
       />
     </div>
